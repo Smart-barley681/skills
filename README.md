@@ -42,7 +42,20 @@ Docs:
 
 ## Installation 📦
 
-Clone this repo and use the skill files/scripts directly under `skills/`.
+Two common ways:
+
+1. **Install from ClawHub (recommended for end users)**
+   - Open: `https://clawhub.ai/hicoldcat/random-image-placeholder`
+   - Click the install/import button on the page to add the skill to your agent workspace
+2. **Install via skills.sh CLI**
+   - Run:
+
+```bash
+npx skills add https://github.com/hicoldcat/skills --skill random-image-placeholder
+```
+
+3. **Use from source (for local development)**
+   - Clone this repo and use the skill files/scripts directly under `skills/`
 
 ## Usage 🧪
 

@@ -42,7 +42,20 @@ python skills/random-image-placeholder/scripts/picsum.py download --seed avatar-
 
 ## 安装 📦
 
-clone 仓库后直接使用 `skills/` 下的 skill 文件与脚本即可。
+常见有三种方式：
+
+1. **通过 ClawHub 安装（推荐给使用者）**
+   - 打开：`https://clawhub.ai/hicoldcat/random-image-placeholder`
+   - 在页面点击安装/导入按钮，将 skill 加入你的代理工作区
+2. **通过 skills.sh CLI 安装**
+   - 运行：
+
+```bash
+npx skills add https://github.com/hicoldcat/skills --skill random-image-placeholder
+```
+
+3. **源码方式（适合本地开发）**
+   - clone 仓库后直接使用 `skills/` 下的 skill 文件与脚本
 
 ## 使用 🧪
 

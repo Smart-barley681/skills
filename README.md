@@ -2,7 +2,16 @@
 
 English | [中文](README.zh-CN.md)
 
-A collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Built for Agents](https://img.shields.io/badge/Built%20for-AI%20Agents-blue)
+![Maintained](https://img.shields.io/badge/Maintained-yes-success)
+![GitHub stars](https://img.shields.io/github/stars/hicoldcat/skills?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/hicoldcat/skills)
+
+A collection of skills for AI coding agents.
+
+> 🚀 Open source, practical, and easy to extend.
 
 ## Available Skills ✨
 
@@ -31,7 +40,7 @@ Docs:
 - `skills/random-image-placeholder/README.md`
 - `skills/random-image-placeholder/SKILL.md`
 
-## Installation
+## Installation 📦
 
 This repo supports two common installation paths:
 
@@ -44,11 +53,11 @@ Package a skill locally:
 python scripts/package_skill.py skills/random-image-placeholder
 ```
 
-## Usage
+## Usage 🧪
 
 Skills are automatically available once installed/imported (depending on your editor/agent). If a skill includes helper scripts, run them directly when a deterministic result is needed.
 
-## Skill Structure
+## Skill Structure 🗂️
 
 Each skill contains:
 
@@ -57,6 +66,6 @@ Each skill contains:
 - `references/` - Supporting documentation (optional)
 - `assets/` - Bundled assets (optional)
 
-## License
+## License 📄
 
 MIT. See [LICENSE](LICENSE).

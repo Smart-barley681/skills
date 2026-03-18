@@ -2,7 +2,16 @@
 
 [English](README.md) | 中文
 
-一个面向 AI 编程代理的 skill 合集。Skill 本质是可打包的说明与脚本，用来扩展代理能力。
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Built for Agents](https://img.shields.io/badge/Built%20for-AI%20Agents-blue)
+![Maintained](https://img.shields.io/badge/Maintained-yes-success)
+![GitHub stars](https://img.shields.io/github/stars/hicoldcat/skills?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/hicoldcat/skills)
+
+一个面向 AI 编程代理的 skill 合集。
+
+> 🚀 开源、实用、易扩展。
 
 ## 当前可用的 Skills ✨
 
@@ -31,7 +40,7 @@ python skills/random-image-placeholder/scripts/picsum.py download --seed avatar-
 - `skills/random-image-placeholder/README.md`
 - `skills/random-image-placeholder/SKILL.md`
 
-## 安装
+## 安装 📦
 
 本仓库支持两种常见使用方式：
 
@@ -44,11 +53,11 @@ python skills/random-image-placeholder/scripts/picsum.py download --seed avatar-
 python scripts/package_skill.py skills/random-image-placeholder
 ```
 
-## 使用
+## 使用 🧪
 
 安装/导入后，skill 会根据你的编辑器/代理规则自动可用。若 skill 自带脚本，建议在需要“确定性输出”时直接运行脚本获得稳定结果。
 
-## Skill 结构
+## Skill 结构 🗂️
 
 每个 skill 通常包含：
 
@@ -57,7 +66,6 @@ python scripts/package_skill.py skills/random-image-placeholder
 - `references/`：可选的参考资料
 - `assets/`：可选的资源文件
 
-## 许可
+## 许可 📄
 
 MIT，见 [LICENSE](LICENSE)。
-

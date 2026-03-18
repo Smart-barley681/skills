@@ -42,16 +42,7 @@ python skills/random-image-placeholder/scripts/picsum.py download --seed avatar-
 
 ## 安装 📦
 
-本仓库支持两种常见使用方式：
-
-1. **直接用源码**：clone 仓库后直接使用 `skills/` 下的 skill 文件与脚本
-2. **使用打包产物 `.skill`**：导入 `dist/` 下生成的 `.skill` 文件（如果你发布了 GitHub Releases，也可以从 Release 下载）
-
-本地打包：
-
-```bash
-python scripts/package_skill.py skills/random-image-placeholder
-```
+clone 仓库后直接使用 `skills/` 下的 skill 文件与脚本即可。
 
 ## 使用 🧪
 

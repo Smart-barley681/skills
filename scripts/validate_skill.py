@@ -8,6 +8,7 @@ from pathlib import Path
 FRONTMATTER_RE = re.compile(r"\A---\n(.*?)\n---\n?", re.DOTALL)
 ALLOWED_FRONTMATTER_KEYS = {"name", "description"}
 REQUIRED_SECTIONS = ["## Triggers", "## Examples"]
+CODE_SPAN_RE = re.compile(r"`([^`]+)`")
 
 
 def parse_frontmatter(text: str) -> tuple[dict[str, str], str]:
@@ -73,6 +74,14 @@ def validate_skill_dir(skill_dir: Path) -> list[str]:
     for section in REQUIRED_SECTIONS:
         if section not in body:
             errors.append(f"{skill_md}: missing required section '{section}'")
+
+    for code_span in CODE_SPAN_RE.findall(body):
+        for prefix in ("scripts/", "references/", "assets/"):
+            if not code_span.startswith(prefix):
+                continue
+            ref_path = skill_dir / code_span
+            if not ref_path.exists():
+                errors.append(f"{skill_md}: referenced path not found: {code_span}")
 
     meta_file = skill_dir / "_meta.json"
     if meta_file.exists():

@@ -7,7 +7,7 @@ Thanks for contributing!
 - New skills under `skills/<skill-name>/` (must include `SKILL.md`)
 - Improvements to templates in `skills/_template/`
 - Documentation in `docs/`
-- Utilities in `scripts/` that improve scaffolding/validation/packaging
+- Utilities in `scripts/` that improve scaffolding/validation
 
 ## Skill requirements
 
@@ -31,15 +31,8 @@ Validate a single skill:
 python scripts/validate_skill.py skills/<skill-name>
 ```
 
-Package a skill:
-
-```bash
-python scripts/package_skill.py skills/<skill-name>
-```
-
 ## Pull requests
 
 - Keep changes focused (one skill / one improvement per PR when possible)
 - Update docs when behavior changes
 - If you add scripts, prefer standard library only (or document dependencies clearly)
-

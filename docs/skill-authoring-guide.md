@@ -38,12 +38,9 @@ Only use `name` and `description` in frontmatter.
 
 Skills do not need a separate metadata version file in this repository format.
 
-Track revisions with git history, release tags, or packaged `.skill` artifacts.
+Track revisions with git history or release tags.
 
-## Validation and packaging
+## Validation
 
 - Validate all skills: `python scripts/validate_skill.py skills`
 - Validate one skill: `python scripts/validate_skill.py skills/<skill-name>`
-- Package one skill: `python scripts/package_skill.py skills/<skill-name>`
-
-The packager validates before creating a distributable `.skill` file.

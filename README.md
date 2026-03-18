@@ -42,16 +42,7 @@ Docs:
 
 ## Installation 📦
 
-This repo supports two common installation paths:
-
-1. **Use directly from source**: clone the repo and use the skill files/scripts under `skills/`
-2. **Use packaged `.skill` artifacts**: import a `.skill` file produced under `dist/` (or from your GitHub Releases, if you publish them)
-
-Package a skill locally:
-
-```bash
-python scripts/package_skill.py skills/random-image-placeholder
-```
+Clone this repo and use the skill files/scripts directly under `skills/`.
 
 ## Usage 🧪
 

